@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div className="home h-screen">
       <Header/>
-    <div className="content block w-full">
-      <div className="inline-block w-1/6">
+    <div className="content flex w-full">
+      <div className="w-1/6">
       <Content/>
       </div>
-      <div className="inline-block w-5/6">
+      <div className="w-5/6">
       <Blogs/>
       </div>
     </div>
